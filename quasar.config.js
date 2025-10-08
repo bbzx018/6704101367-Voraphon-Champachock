@@ -44,7 +44,7 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/6704101367-Voraphon-Champachock/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
@@ -91,7 +91,7 @@ export default defineConfig((/* ctx */) => {
       // directives: [],
 
       // Quasar plugins
-      plugins: [['Notify']],
+      plugins: ['Notify'],
     },
 
     // animations: 'all', // --- includes all animations
@@ -187,7 +187,7 @@ export default defineConfig((/* ctx */) => {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: '6704101367-voraphon-champachock',
+        appId: '6704101410-rattapoom-maru',
       },
     },
 
