@@ -1,9 +1,8 @@
-// tests/example.spec.ts
 import { test, expect, Page } from '@playwright/test';
 
 /** ---------- Bootstrapping ---------- **/
 const gotoApp = async (page: Page) => {
-  await page.goto('http://localhost:9000/#/');                 // ← your app URL
+  await page.goto('http://localhost:9001/6704101367-Voraphon-Champachock/');                 // ← your app URL
   await expect(page.locator('#q-app')).toBeVisible();          // Quasar root
   await expect(page.locator('form')).toBeVisible();            // form is rendered
 };
